@@ -7,9 +7,14 @@
 
 # User-specific files
 .Ruserdata
+models/
+data/environment/*
+!data/environment/environment_list.rds
+range_maps/
 
-# Example code in package build process
+# Code in project build process
 *-Ex.R
+pre-processing.R
 
 # Output files from R CMD build
 /*.tar.gz
